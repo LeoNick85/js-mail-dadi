@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+}
+
+header {
+    background-color: orange;
+    text-align: center;
+    padding: 30px;
+    height: 140px;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+main {
+    background-color: red;
+    height: calc(100vh - 200px);
+}
+
+.bg-black {
+    background-color: black;
+    color: red;
+}
+
+.bg-red {
+    background-color: red;
+    color: black;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.giocatore-wrapper {
+    text-align: center;
+    padding: 30px 16px;
+    height: 100px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.result-wrapper {
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-box {
+    background-color: darkslategrey;
+    height: 200px;
+    width: 150px;
+    text-align: center;
+    border: 5px inset lightgrey;
+    color: white;
+    font-size: 140px;
+    padding: 25px 0;
+}
+
+footer {
+    height: 60px;
+    background-color: orange;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+}
